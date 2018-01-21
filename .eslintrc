@@ -19,7 +19,13 @@
       "off"
     ],
     "no-console": [
-      "off"
+      "error",
+      {
+        "allow": [
+          "error",
+          "warn"
+        ]
+      }
     ],
     "no-constant-condition": [
       "off"
@@ -50,6 +56,10 @@
       {
         "keywords": true
       }
+    ],
+    "semi": [
+      "error",
+      "always"
     ],
     "space-unary-ops": [
       "error",
